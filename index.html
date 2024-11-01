@@ -19,7 +19,15 @@
   </head>
 
   <body>
-    <header style="background: linear-gradient(0deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);">
+    <header
+      style="
+        background: linear-gradient(
+          0deg,
+          rgb(255, 255, 255),
+          rgba(255, 255, 255, 0) 100%
+        );
+      "
+    >
       <!-- nav bar -->
       <nav class="">
         <div class="navbar bg-base-100">
@@ -29,14 +37,20 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
               >
-              <li><a class="font-extrabold">Home</a></li>
-              <li><a href="">Services</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact US</a></li>
+                <li><a class="font-extrabold">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact US</a></li>
               </ul>
             </div>
-            <a class="btn btn-ghost text-xl"><img src="./assets/arrow-up-right-01@2x.png" class="w-7 h-7" alt="">Rinterio</a>
+            <a class="btn btn-ghost text-xl"
+              ><img
+                src="./assets/arrow-up-right-01@2x.png"
+                class="w-7 h-7"
+                alt=""
+              />Rinterio</a
+            >
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1">
@@ -48,13 +62,55 @@
             </ul>
           </div>
           <div class="navbar-end flex flex-row gap-4">
-            <a class="btn btn-circle hidden lg:flex"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a class="btn btn-circle hidden lg:flex"><i class="fa-solid fa-cart-shopping"></i></a>
-            <a class="btn btn-primary hidden lg:flex">Book Consult <img src="./assets/arrow-up-right-black.png" class="w-4 h-4" alt=""></a>
-            <a class="btn btn-circle lg:hidden"><i class="fa-solid fa-bars"></i></a>
+            <a class="btn btn-circle hidden lg:flex"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a class="btn btn-circle hidden lg:flex"
+              ><i class="fa-solid fa-cart-shopping"></i
+            ></a>
+            <a class="btn btn-primary hidden lg:flex"
+              >Book Consult
+              <img
+                src="./assets/arrow-up-right-black.png"
+                class="w-4 h-4"
+                alt=""
+            /></a>
+            <a class="btn btn-circle lg:hidden"
+              ><i class="fa-solid fa-bars"></i
+            ></a>
           </div>
         </div>
       </nav>
+      <!-- hero area -->
+      <div class="hero bg-base-200 min-h-screen max-w-6xl mx-auto">
+        <div class="hero-content text-center">
+          <div class="">
+            <div class="flex justify-center">
+              <img src="./assets/banner.png" alt="" />
+            </div>
+            <h1 class="lg:text-6xl text-2xl font-bold px-4 lg:px-10">
+              A barn house of this design has a striking appearance
+            </h1>
+            <p class="py-6 text-sm lg:px-24 px-4 lg:text-base">
+              The barn house captivates with its blend of rustic charm and
+              modern sophistication, featuring weathered wood, sleek metal
+              accents, and large windows that flood the space with natural
+              light.
+            </p>
+            <button
+              class="btn sm:btn-wide bg-[#ABEF5F80] border-0 lg:btn-accent"
+            >
+              View Details
+              <img
+                src="./assets/arrow-up-right-01@2x.png"
+                class="w-4 h-4"
+                alt=""
+              />
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
+    <main></main>
   </body>
 </html>
