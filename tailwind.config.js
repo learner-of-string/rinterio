@@ -5,7 +5,8 @@ module.exports = {
       {
         lightTheme: {
           primary: "#ABEF5F",
-          accent: "#ABEF5F80"
+          accent: "#ABEF5F80",
+          base: "#FFFFFF",
         },
       },
     ],
